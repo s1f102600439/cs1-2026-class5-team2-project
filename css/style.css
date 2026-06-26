@@ -13,8 +13,26 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    height:70px;
     background:#d9d9d9;
-    padding:15px 40px;
+    padding:0 40px;
+    box-sizing:border-box;
+}
+
+header > div{
+    height:100%;
+}
+
+.logo-link{
+    display:flex;
+    align-items:center;
+    height:100%;
+}
+
+.logo{
+    height:100%;
+    width:auto;
+    display:block;
 }
 
 
