@@ -1,0 +1,58 @@
+/* おすすめページ */
+
+.ice-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.ice-card{
+    width: 180px;
+    background: white;
+    border: 1px solid #999;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.ice-card img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.ice-card h3{
+    margin: 10px 0;
+}
+
+.ice-card a{
+    display: inline-block;
+    padding: 8px 18px;
+    background: #dddddd;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.ice-card a:hover{
+    background: #bbbbbb;
+}
+
+.ice-card{
+    width: 180px;
+    background: white;
+    border: 1px solid #999;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    justify-self: center;
+}
+
+
+main{
+    width:1200px;
+    margin:30px auto;
+}
